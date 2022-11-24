@@ -19,5 +19,29 @@ body {
 .wrapper {
     width: 60rem;
     aspect-ratio: 1;
-    background-color: #ccc;
+    display: grid;
+    place-items: center;
+    perspective: 100rem;
+    perspective-origin: 76% 27%;
+}
+
+
+.circle {
+    position: absolute;
+    width: 40rem;
+    aspect-ratio: 1;
+    border: 0.5rem dashed #0ff;
+    border-radius: 50%;
+}
+
+.circle-1 {
+    transform: rotateY(70deg) rotateX(40deg);
+}
+
+.circle-2 {
+    transform: rotateY(70deg) rotateX(-40deg);
+}
+
+.circle-3 {
+    transform: rotateY(180deg) rotateX(90deg);
 }
