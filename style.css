@@ -8,3 +8,16 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    height: 100vh;
+    width: 100%;
+    background: rgb(46,51,80);
+    display: grid;
+    place-items: center;
+}
+
+.wrapper {
+    width: 60rem;
+    aspect-ratio: 1;
+    background-color: #ccc;
+}
